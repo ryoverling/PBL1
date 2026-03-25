@@ -71,7 +71,7 @@ void floyd() {
             }
         }
     }
-    for (k = 1; k <= n; k++) {
+
     for (k = 1; k <= n; k++) {
         if (d[k][k] < 0) {
             for (i = 1; i <= n; i++) {
